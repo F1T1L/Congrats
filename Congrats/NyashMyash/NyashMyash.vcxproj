@@ -163,9 +163,14 @@
     <ResourceCompile Include="NyashMyash.rc" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="background.bmp" />
+    <Image Include="bot_button_image.bmp" />
     <Image Include="icon1.ico" />
     <Image Include="NyashMyash.ico" />
     <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\C_DL\bodamor_cursor_by_charmila-d45zn2m\BODAMOR CURSOR (Para windows)\BODAMOR_english\normal.cur" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
